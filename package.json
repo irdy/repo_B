@@ -1,0 +1,14 @@
+{
+  "name": "repo_b",
+  "version": "1.0.0",
+  "description": "test shared code",
+  "main": "index.js",
+  "scripts": {
+    "shared:add": "git subtree add --prefix shared shared main --squash",
+    "shared:pull": "git subtree pull --prefix shared shared main --squash",
+    "shared:push": "git subtree push --prefix shared shared main"
+  },
+  "keywords": [],
+  "author": "Irdy",
+  "license": "ISC"
+}
